@@ -70,7 +70,7 @@ function applyAddSecond(state){
     if(state.elapsedTime < TIMER_DURATION){
         return {
             ...state,
-            elapsedTime: state.elapsedTime = 1
+            elapsedTime: state.elapsedTime + 1
         };
     } else{
         return{
